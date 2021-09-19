@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Balsamiq+Sans:regular,italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Literata:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Literata", sans-serif;
+}
+
+h1 {
+	font-family: "Balsamiq Sans", "Arial", monospace;
+	font-size: 50px;
+	color: darkgreen;
+	text-shadow: 4px 2px 1px darkolivegreen;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: darkred;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Balsamiq Sans", "Arial", monospace;
+	font-size: 35px;
+	color: maroon;
+}
+
+h4 {
+	font-size: 20px;
+	font-style: normal;
+	text-transform: uppercase;
+	color: fuchsia;
+}
+
+p {
+	line-height: 150%;
+}
+
+footer {
+	font-style: italic;
+	font-size: 50px;
+	color: mediumspringgreen;
+	letter-spacing: 18px;
+	word-spacing: 20px;
+}
+
+.text {
+	font-size: 20px;
+	color: darkgrey;
+	font-style: oblique;
+	text-align: center;
+}
+
+.list {
+	list-style-type: decimal;
+	font-size: 23px;
+	color: blue;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+
+.block {
+	font-size: 20px;
+	color: rgb(219, 243, 176);
+	margin-left: 30px;
+	list-style: square inside;
+	text-align: center;
+}
+.item {
+	font-family: "Arial";
+	text-transform: uppercase;
+	text-align: right;
+	color: mediumpurple;
+}
+
+.content {
+	font-family: "Times New Roman", Times, serif;
+	text-transform: capitalize;
+	color: orange;
+	font-style: italic;
+}
+
+.aside {
+	font-family: "Calibri";
+	font-size: 24px;
+	color: rgb(233, 162, 162);
+	text-indent: 120px;
+}
+
+.section {
+	font-family: Verdana, Geneva, Tahoma, serif;
+	word-spacing: 33px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.grid {
+	font-family: "Balsamiq Sans", "Arial", monospace;
+	font-size: 35px;
+	margin-left: 40px;
+	list-style: circle;
+}
+
+.box {
+	font-family: "Arial";
+	text-decoration: line-through;
+	color: salmon;
+	text-transform: uppercase;
+}
